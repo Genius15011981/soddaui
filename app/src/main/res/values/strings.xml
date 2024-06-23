@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Sodda UI</string>
+    <string name="off" translatable="false">OFF</string>
+    <string name="on" translatable="false">ON</string>
+    <string name="eslatma" translatable="false">Eslatma</string>
+    <string name="_2024_yilda_malaka_oshirganmisiz">2024-yilda malaka oshirganmisiz?</string>
+    <string name="malaka_oshirishga_yuborilsin" translatable="false">Malaka oshirishga yuborilsin</string>
+    <string-array name="initial">
+        <item>20</item>
+        <item>70</item>
+        <item>90</item>
+    </string-array>
+</resources>

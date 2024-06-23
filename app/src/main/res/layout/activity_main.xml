@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="64dp"
+    android:layout_marginBottom="64dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginHorizontal="16dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layoutDirection="rtl"
+        android:text="@string/_2024_yilda_malaka_oshirganmisiz" />
+
+    <ToggleButton
+        android:id="@+id/togglebtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="#673AB7"
+        android:text="@string/malaka_oshirishga_yuborilsin"
+        android:textColor="#ffffff"
+        android:textOff="@string/off"
+        android:textOn="@string/on" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/eslatma" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/black"
+        android:stepSize="5"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:haloColor="#1FBD25"
+        app:haloRadius="50dp"
+        app:thumbStrokeColor="#9C27B0"
+        app:tickColor="#F6095A"
+        app:trackColor="#FFEB3B" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/rangeslider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:value="20.0"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        app:values="@array/initial" />
+
+</LinearLayout>
